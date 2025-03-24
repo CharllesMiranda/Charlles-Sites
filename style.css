@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    
+}
+
+.fundo {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  /* opacity: 0.95; */
+  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+  background-color: #000;
+}
+
+header {
+    color: #ff4400;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+    word-spacing: 40px;
+    margin: 20px 0 50px 23px; 
+    cursor: pointer;
+}
+
+.botao-inicio {
+    color: #ff4400;
+}
+.botao-projeto {
+    color: #ff4400;
+}
+
+.titulo-site {
+    color: #ff4400;
+    margin: 10px 0 100px 23px;
+    width: 500px;
+}
+
+.img-projeto {
+    width: 450px;
+    cursor: pointer; 
+    margin: 12px 0 20px 20px;
+    transition: 0.3s;
+    display: flex;
+}
+
+
+h2 {
+    margin-top: 50px;
+    margin-left: 20px; 
+}
+
+a{
+    margin-left: 20px;   
+}
+
+a:hover {
+    color: rgb(0, 38, 254); /* Cor quando o mouse está sobre o link */
+}
+
+.img-projeto:hover {
+    width: 750px;
+}
+
+.Mario-Bros:hover {
+    border: 3px solid red; 
+    width: 500px;
+}
+
+.Desafio-1:hover {
+    border: 3px solid red; 
+    width: 500px;
+}
+
+.css-desafio:hover{
+    border: 3px solid red; 
+    width: 500px;
+}
+
+.responsividade-750:hover {
+    border: 3px solid red; 
+    width: 500px;
+}
+
+.Responsividade:hover {
+    border: 3px solid red;
+    width: 500px;    
+}
+
+.botao {
+    color:black;
+    background-color: #ff4400;
+    border: none;
+    padding: 7px;
+    border-radius: 13px;
+    display: inline;
+    margin-top: 20px; 
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
