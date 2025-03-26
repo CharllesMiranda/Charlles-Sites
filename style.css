@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Oswald", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     font-size: 35px;
     
 }
@@ -13,7 +13,6 @@
   position: fixed;
   top: 0;
   z-index: -1;
-  /* opacity: 0.95; */
   background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
   background-color: #000;
 }
@@ -64,7 +63,7 @@ a:hover {
 }
 
 .img-projeto:hover {
-    width: 750px;
+    width: 1200px;
 }
 
 .Mario-Bros:hover {
